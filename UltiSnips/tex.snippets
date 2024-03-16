@@ -82,13 +82,8 @@ endsnippet
 snippet note "note" bi
 
 \documentclass[12pt]{article}
-\usepackage{graphicx} % Required for inserting images
+\usepackage{graphicx,milticol,amsmath,amssymb,xcolor,titlesec,pgfplots,tikz,fancyhdr,hyperref} 
 \usepackage[margin=2cm]{geometry}
-\usepackage{multicol,amsmath, amssymb}
-\usepackage{xcolor}
-\usepackage{titlesec}
-\usepackage{pgfplots}
-\usepackage{tikz}
 
 \titleformat{\subsection}
 {\color{red}\normalfont\Large\bfseries}
@@ -101,8 +96,7 @@ snippet note "note" bi
 \titlespacing{\subsection}{0pt}{0pt}{0pt} % Adjust the spacing here
 \titlespacing{\subsubsection}{0pt}{\baselineskip}{0pt} % Adjust the spacing here
 \newcommand{\summation}[2]{\sum\limits^{#1}_{#2}}
-\usepackage{fancyhdr}
-\usepackage{hyperref} % For hyperlinks
+
 
 % Define the URL for the footer
 \newcommand{\myURL}{https://mohammedbilalns.github.io/Math-Demystified/}
