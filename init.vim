@@ -70,15 +70,13 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTreeToggle<CR>
 lua << EOF
 	require("true-zen").setup {
-		-- your config goes here
-		-- or just leave it empty :)
+		)
 	}
 EOF
 
 lua << EOF
 	require("auto-save").setup {
-		-- your config goes here
-		-- or just leave it empty :)
+		)
 	}
 EOF
 
