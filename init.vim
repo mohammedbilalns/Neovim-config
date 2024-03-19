@@ -27,6 +27,7 @@ let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+Plug 'windwp/nvim-autopairs'
 
 " Using a non-default branch
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
@@ -68,4 +69,21 @@ hi clear Conceal
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTreeToggle<CR>
+lua << EOF
+	require("true-zen").setup {
+		-- your config goes here
+		-- or just leave it empty :)
+	}
+EOF
+
+lua << EOF
+	require("auto-save").setup {
+		-- your config goes here
+		-- or just leave it empty :)
+	}
+EOF
+lua << EOF
+
+	require("nvim-autopairs").setup {}
+EOF
 
