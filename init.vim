@@ -68,16 +68,4 @@ hi clear Conceal
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTreeToggle<CR>
-lua << EOF
-	require("true-zen").setup {
-		)
-	}
-EOF
-
-lua << EOF
-	require("auto-save").setup {
-		)
-	}
-EOF
-
 
