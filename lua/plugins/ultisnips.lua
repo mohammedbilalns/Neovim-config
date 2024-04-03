@@ -11,7 +11,7 @@ return {
 
 	{
 
-		'honza/vim-snippets'
+		'mohammedbilalns/vim-snippets'
 	}
 
 
