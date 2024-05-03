@@ -1,9 +1,9 @@
 {
-  "LuaSnip": { "branch": "master", "commit": "03c8e67eb7293c404845b3982db895d59c0d1538" },
+  "LuaSnip": { "branch": "master", "commit": "8f3d3465ba5c7ade0a8adb41eca5736f291a3fa8" },
   "SmoothCursor.nvim": { "branch": "main", "commit": "d60c1995b13e5d8c446c78a850fe8a587fa0ddd6" },
   "alpha-nvim": { "branch": "main", "commit": "41283fb402713fc8b327e60907f74e46166f4cfd" },
   "autosave.nvim": { "branch": "main", "commit": "feaf2d220f6a01a8f794c596145dfb2739a00203" },
-  "citruszest.nvim": { "branch": "main", "commit": "b035aba296afe552e7fc3b3d9b08825754776634" },
+  "citruszest.nvim": { "branch": "main", "commit": "8509f4e4a88b95dfd316c253b92e60dfbdbef088" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "5af77f54de1b16c34b23cba810150689a3a90312" },
   "cmp_luasnip": { "branch": "master", "commit": "05a9ab28b53f71d1aece421ef32fee2cb857a843" },
   "friendly-snippets": { "branch": "main", "commit": "ea068f1becd91bcd4591fceb6420d4335e2e14d3" },
